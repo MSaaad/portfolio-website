@@ -12,6 +12,7 @@ import {
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FbIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from '@material-ui/icons/Instagram';
 import theme from "../../theme/theme";
 import * as styles from "../../theme/commonStyles";
 
@@ -73,12 +74,20 @@ const ContactPage = () => {
 
   const icons = (
     <Box className={classes.rowDiv} id="Contact">
+      <Tooltip title="Facebook" arrow TransitionComponent={Zoom}>
+        <IconButton
+          className={classes.icon}
+          aria-label="Fb link"
+          onClick={() => window.open("https://www.facebook.com/msaaaaad/")}>
+          <FbIcon className={classes.fb} />
+        </IconButton>
+      </Tooltip>
       <Tooltip title="LinkedIn" arrow TransitionComponent={Zoom}>
         <IconButton
           className={classes.icon}
           aria-label="LinkedIn Link"
           onClick={() =>
-            window.open("https://www.linkedin.com/in/briannamcdonald/")
+            window.open("https://www.linkedin.com/in/muhammad-saad-4791ab1b3/")
           }
         >
           <LinkedInIcon className={classes.linkedIn} />
@@ -88,30 +97,21 @@ const ContactPage = () => {
         <IconButton
           className={classes.icon}
           aria-label="GitHub link"
-          onClick={() => window.open("https://github.com/briannamcdonald/")}
+          onClick={() => window.open("https://github.com/MSaaad/")}
         >
           <GitHubIcon className={classes.github} />
         </IconButton>
       </Tooltip>
-      <Tooltip title="CodePen" arrow TransitionComponent={Zoom}>
+      <Tooltip title="Instagram" arrow TransitionComponent={Zoom}>
         <IconButton
           className={classes.icon}
-          aria-label="CodePen link"
-          onClick={() => window.open("https://codepen.io/briannamcdonald")}
+          aria-label="Instagram link"
+          onClick={() => window.open("https://instagram.com/msaaaaad_/")}
         >
-          <span className="iconify" data-icon="ant-design:codepen-outlined" data-inline="false" style={{ fontSize: "2.8rem" }} />
+          <InstagramIcon className={classes.github} />
         </IconButton>
       </Tooltip>
-      <Tooltip title="Facebook" arrow TransitionComponent={Zoom}>
-        <IconButton
-          className={classes.icon}
-          aria-label="Fb link"
-          onClick={() => window.open("https://facebook.com/Brianna_Codes")}
-        >
-          <FbIcon className={classes.fb} />
-        </IconButton>
-      </Tooltip>
-    </Box>
+     </Box>
   );
 
   return (
@@ -126,8 +126,8 @@ const ContactPage = () => {
         <Typography className={classes.emailText}>
           Email:&nbsp;&nbsp;&nbsp;&nbsp;
         </Typography>
-        <Link href="mailto: brmcdonald@mun.ca" className={classes.link}>
-          brmcdonald@mun.ca
+        <Link href="mailto: saad99u@gmail.com" className={classes.link}>
+          saad99u@gmail.com
         </Link>
       </Box>
       {icons}
