@@ -73,7 +73,8 @@ const FrontPage = () => {
       position: "fixed",
       bottom: "0",
       right: "0",
-      margin: "1rem",
+      margin: "2rem",
+      background: "teal",
       zIndex: "99999",
     },
     backToTopButtonMobile: {
@@ -91,13 +92,13 @@ const FrontPage = () => {
   return (
     <Box className={classes.background} id="Top">
       <Typography className={classes.topText} variant="h3" align="center">
-        Hi, my name is
+        Hey there, I am 
       </Typography>
       <Typography className={classes.name} variant="h2" align="center">
-        Brianna McDonald.
+        Muhammad Saad.
       </Typography>
       <Typography className={classes.bottomText} variant="h6" align="center">
-        Computer Science student and aspiring developer.
+        A Computer Systems engineer and learning developer :)
       </Typography>
       <IconButton
         className={classes.button}
@@ -119,7 +120,6 @@ const FrontPage = () => {
           onClick={() => scrollTo("Top")}
         >
           <KeyboardArrowUpIcon />
-          Back to Top
         </Fab>
       </Hidden>
       <Hidden smUp>
