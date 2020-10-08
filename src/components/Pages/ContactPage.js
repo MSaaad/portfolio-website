@@ -11,7 +11,7 @@ import {
 } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import FbIcon from "@material-ui/icons/Facebook";
 import theme from "../../theme/theme";
 import * as styles from "../../theme/commonStyles";
 
@@ -65,7 +65,7 @@ const ContactPage = () => {
     linkedIn: {
       fontSize: "2.7rem",
     },
-    twitter: {
+    fb: {
       fontSize: "2.6rem",
     },
   });
@@ -102,13 +102,13 @@ const ContactPage = () => {
           <span className="iconify" data-icon="ant-design:codepen-outlined" data-inline="false" style={{ fontSize: "2.8rem" }} />
         </IconButton>
       </Tooltip>
-      <Tooltip title="Twitter" arrow TransitionComponent={Zoom}>
+      <Tooltip title="Facebook" arrow TransitionComponent={Zoom}>
         <IconButton
           className={classes.icon}
-          aria-label="Twitter link"
-          onClick={() => window.open("https://twitter.com/Brianna_Codes")}
+          aria-label="Fb link"
+          onClick={() => window.open("https://facebook.com/Brianna_Codes")}
         >
-          <TwitterIcon className={classes.twitter} />
+          <FbIcon className={classes.fb} />
         </IconButton>
       </Tooltip>
     </Box>

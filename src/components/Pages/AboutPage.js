@@ -3,7 +3,6 @@ import { Box, Typography, Divider, Link, makeStyles } from "@material-ui/core";
 import theme from "../../theme/theme";
 import * as styles from "../../theme/commonStyles";
 import picture from "./../../images/picture.jpg";
-
 import SkillsPage from "./SkillsPage";
 
 const AboutPage = () => {
@@ -64,6 +63,7 @@ const AboutPage = () => {
         width: "70%",
       },
       boxShadow: "8px 8px 12px rgba(0, 0, 0, 0.25)",
+      borderRadius: "50%",
     },
   });
   const classes = useStyles();
@@ -81,21 +81,17 @@ const AboutPage = () => {
         </Typography>
         <Divider classes={{ root: classes.divider }} />
         <Typography className={classes.bodyText}>
-          My name is <b>Brianna McDonald</b> and I am a third year Computer
-          Science honours student at Memorial University living in Newfoundland,
-          Canada. <br /> <br /> I really enjoy programmming and love to be
-          always learning something new. I have a strong work ethic, as shown by
-          my 4.0 GPA, and can quickly pick up on new technologies. <br /> <br />{" "}
-          In my spare time I work on a web development team as a front-end
-          developer for a non-profit organization and also work on my own
-          programming projects. You can find my {/* TODO - add resume link */}{" "}
-          <Link
+          Hey there, <b> My Mame Is Saad.</b> I am a third year Computer and info systems engineer pursuing my degree 
+          from NED University, Karachi. <br /> <br /> I am a learning coder and developer and I have a good 
+          command in new technologies and has a good searching and management skills. <br /> <br />
+          I love doing frontend work, also I am good at playing with colors and visuals.
+          {/* <Link
             onClick={scrollToContact}
             className={classes.link}
             underline="none"
           >
             contact information and links here
-          </Link>
+          </Link> */}
           .
         </Typography>
         <Box
