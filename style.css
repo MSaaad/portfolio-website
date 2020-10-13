@@ -16,7 +16,6 @@ body {
   width: 100%; /* Full width */
   display: flex;
   justify-content: center;
-
 }
 
 .navbar a {
@@ -24,11 +23,10 @@ body {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
-.navbar a:hover{
-  background-color: tomato;
+.navbar a:hover {
+  background-color: teal;
   /* -webkit-transition: 1s pulse;
   transition: 1s pulse; */
   -webkit-transition: all 0.5 ease-in-out;
@@ -98,8 +96,6 @@ body {
   margin-top: auto;
   text-align: center;
   margin-bottom: 50px;
-
-  
 }
 
 #down-arrow a {
@@ -154,8 +150,8 @@ body {
 }
 
 h2 {
-  font-weight: 200;
-  font-size: 2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
   color: #31b0d5;
   text-transform: uppercase;
   text-align: center;
@@ -191,7 +187,7 @@ h2 {
 
 .card-content {
   padding: 0.25rem 2rem;
-align-self: center;
+  align-self: center;
   flex: 1 1 auto;
 }
 
@@ -219,6 +215,26 @@ h4 {
   width: 400px;
 }
 
+.btn1 {
+  background-color: teal;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
+/* .btn2{
+  background-color: teal;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: 20px;
+
+} */
 .project-image img {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -241,6 +257,7 @@ h4 {
   padding-left: 0;
   padding: 80px 10px;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
 }
 
 .li-skills {
@@ -275,7 +292,7 @@ h4 {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  background: #53575a;
   color: #fff;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
@@ -290,7 +307,7 @@ h4 {
 .contact button {
   display: block;
   width: 100%;
-  background: #fff;
+  background: #53575a;
   border-radius: 4px;
   padding: 10px 10px;
   border: none;
