@@ -52,10 +52,11 @@ body {
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.6em;
   color: white;
   text-align: center;
   padding-top: 150px;
+  margin-right: 7%;
 }
 
 .jumbotron-text h1 {
@@ -88,6 +89,23 @@ body {
   padding: 20px;
 }
 
+.personalpic {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 350px;
+  border-radius: 50%;
+}
+.personalpic:hover {
+  opacity: 0.9;
+  background-color: #0000;
+}
+@media only screen and (max-width: 600px) {
+  .personalpic {
+    float: none;
+    margin: 0 auto;
+  }
+}
 /*ARROW LINK*/
 #down-arrow {
   /*position: absolute;
@@ -279,13 +297,11 @@ h4 {
 }
 
 .contact {
-  max-width: 500px;
   margin: 0 auto;
 }
 
 .contact input,
 .contact textarea {
-  display: block;
   width: 100%;
   padding: 10px;
   border-radius: 4px;
@@ -299,7 +315,7 @@ h4 {
 
 .contact textarea {
   height: 150px;
-  width: 450px;
+  width: 100%;
   resize: none;
 }
 
