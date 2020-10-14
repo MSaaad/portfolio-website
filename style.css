@@ -100,7 +100,7 @@ body {
   opacity: 0.9;
   background-color: #0000;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .personalpic {
     float: none;
     margin: 0 auto;
