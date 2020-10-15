@@ -94,7 +94,7 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 3em;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .jumbotron-text p {
@@ -124,10 +124,14 @@ body {
   flex-wrap: wrap;
   float: right;
   margin-right: 100px;
-  width: 350px;
-  border-radius: 50%;
-}
+  width: 330px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 
+  /* padding:1px;
+  border:10px solid #021a40; */
+  /* border-radius: 50%; */
+
+}
 /*CONTENT*/
 .container {
   /*sets up flexbox*/
