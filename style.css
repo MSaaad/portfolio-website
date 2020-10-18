@@ -15,7 +15,7 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: center;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar a:hover {
-  color: teal;
+color: rgb(1, 73, 73);
   transition: all 0.5s ease-in-out;
   /* border-radius: 50px; */
 }
@@ -38,7 +38,7 @@ body {
   flex-direction: row;
   font-family: "Montserrat";
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   justify-content: space-evenly;
 }
 .navbar li {
@@ -256,16 +256,16 @@ h4 {
   margin-left: 45px;
   margin-bottom: 20px;
 }
-/* .btn2{
+.btn2{
   background-color: teal;
   text-decoration: none;
   color: white;
   padding: 5px;
   border-radius: 5px;
-  width: fit-content;
-  margin-left: 20px;
-
-} */
+  width: 160px;
+  margin: auto;
+  margin-bottom: 20px;
+}
 .project-image img {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -320,10 +320,12 @@ h4 {
 
 .contact input,
 .contact textarea {
-  width: 100%;
-  padding: 10px;
+
+  width: 50%;
+  background: #212222;
   font-size: 18px;
   border-radius: 40px;
+  padding: 10px 10px;
   border: none;
   margin-bottom: 10px;
   background: #212222;
@@ -335,15 +337,15 @@ h4 {
 
 .contact textarea {
   height: 150px;
-  width: 90%;
+  width: 80%;
   resize: none;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 15%/50%;
 }
 
 .contact button {
-  display: block;
-  width: 100%;
+
+  width: 50%;
   background: #212222;
   font-size: 18px;
   border-radius: 40px;
@@ -351,7 +353,7 @@ h4 {
   border: none;
   color: white;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
